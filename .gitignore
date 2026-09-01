@@ -1,0 +1,28 @@
+# ---- Patient / clinical data (NEVER commit — DTA / GDPR) ----
+datasets/
+*.zip
+*.dcm
+**/CT*
+**/RTSTRUCT*
+**/RTDOSE*
+**/RTPLAN*
+# any raw imaging exports
+*.nii
+*.nii.gz
+
+# ---- Python env & caches ----
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Large binaries (optional: keep repo lean) ----
+# Sufyan_Thesis_Defence_TGC.pptx
+# *.pdf
+
+# ---- OS noise ----
+.DS_Store
+Thumbs.db
+
+*.docx
